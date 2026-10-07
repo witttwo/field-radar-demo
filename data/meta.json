@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-10-03T00:00:00Z",
+  "seed": 42,
+  "endDate": "2026-10-02",
+  "historyStart": "2025-09-03",
+  "regions": [
+    {
+      "region_id": 1,
+      "region_code": "W01",
+      "region_name": "West",
+      "manager_name": "Maja Zawadzka",
+      "voivodeships": [
+        {
+          "teryt": "32",
+          "name": "zachodniopomorskie"
+        },
+        {
+          "teryt": "08",
+          "name": "lubuskie"
+        },
+        {
+          "teryt": "30",
+          "name": "wielkopolskie"
+        }
+      ],
+      "bbox": [
+        14.12298,
+        51.10365,
+        19.105,
+        54.57013
+      ],
+      "center": [
+        16.25439,
+        52.74216
+      ]
+    },
+    {
+      "region_id": 2,
+      "region_code": "N01",
+      "region_name": "North",
+      "manager_name": "Mateusz Musiał",
+      "voivodeships": [
+        {
+          "teryt": "22",
+          "name": "pomorskie"
+        },
+        {
+          "teryt": "04",
+          "name": "kujawsko-pomorskie"
+        },
+        {
+          "teryt": "28",
+          "name": "warmińsko-mazurskie"
+        }
+      ],
+      "bbox": [
+        16.69852,
+        52.33064,
+        22.80614,
+        54.83533
+      ],
+      "center": [
+        19.26209,
+        53.73463
+      ]
+    },
+    {
+      "region_id": 3,
+      "region_code": "C01",
+      "region_name": "Central",
+      "manager_name": "Grzegorz Wieczorek",
+      "voivodeships": [
+        {
+          "teryt": "14",
+          "name": "mazowieckie"
+        },
+        {
+          "teryt": "10",
+          "name": "łódzkie"
+        }
+      ],
+      "bbox": [
+        18.07452,
+        50.84328,
+        23.12841,
+        53.48095
+      ],
+      "center": [
+        20.53387,
+        52.09745
+      ]
+    }
+  ],
+  "thresholds": {
+    "overdue_tolerance": 1.5,
+    "duplicate_window_days": 7,
+    "overlap_min_share": 0.15,
+    "no_sales_min_visits": 4,
+    "no_sales_window_days": 90,
+    "new_outlet_window_days": 21
+  },
+  "auditsFrom": "2025-12-01",
+  "reasonCodes": [
+    {
+      "code": "covering_colleague",
+      "applies_to": "answer",
+      "label": "Covering for a colleague"
+    },
+    {
+      "code": "customer_request",
+      "applies_to": "answer",
+      "label": "Customer asked for the visit"
+    },
+    {
+      "code": "on_my_route",
+      "applies_to": "answer",
+      "label": "It was on my route"
+    },
+    {
+      "code": "wrong_assignment",
+      "applies_to": "answer",
+      "label": "The assignment is wrong"
+    },
+    {
+      "code": "data_error",
+      "applies_to": "answer",
+      "label": "Data error"
+    },
+    {
+      "code": "other",
+      "applies_to": "answer",
+      "label": "Other"
+    },
+    {
+      "code": "legit_merchandiser",
+      "applies_to": "dismiss",
+      "label": "Legitimate merchandiser visit"
+    },
+    {
+      "code": "temporary_cover",
+      "applies_to": "dismiss",
+      "label": "Temporary cover"
+    },
+    {
+      "code": "data_error",
+      "applies_to": "dismiss",
+      "label": "Data error"
+    },
+    {
+      "code": "other",
+      "applies_to": "dismiss",
+      "label": "Other"
+    },
+    {
+      "code": "closed",
+      "applies_to": "overdue",
+      "label": "Outlet closed"
+    },
+    {
+      "code": "refuses_visits",
+      "applies_to": "overdue",
+      "label": "Outlet refuses visits"
+    },
+    {
+      "code": "seasonal",
+      "applies_to": "overdue",
+      "label": "Seasonal outlet"
+    },
+    {
+      "code": "route_capacity",
+      "applies_to": "overdue",
+      "label": "No capacity on the route"
+    },
+    {
+      "code": "other",
+      "applies_to": "overdue",
+      "label": "Other"
+    }
+  ],
+  "holidays": [
+    "2025-01-01",
+    "2025-01-06",
+    "2025-04-20",
+    "2025-04-21",
+    "2025-05-01",
+    "2025-05-03",
+    "2025-06-08",
+    "2025-06-19",
+    "2025-08-15",
+    "2025-11-01",
+    "2025-11-11",
+    "2025-12-24",
+    "2025-12-25",
+    "2025-12-26",
+    "2026-01-01",
+    "2026-01-06",
+    "2026-04-05",
+    "2026-04-06",
+    "2026-05-01",
+    "2026-05-03",
+    "2026-05-24",
+    "2026-06-04",
+    "2026-08-15",
+    "2026-11-01",
+    "2026-11-11",
+    "2026-12-24",
+    "2026-12-25",
+    "2026-12-26"
+  ],
+  "credits": [
+    {
+      "name": "Overture Maps Places",
+      "licence": "CDLA-Permissive-2.0 (Overture); per-record source licences below",
+      "url": "https://docs.overturemaps.org/attribution/",
+      "text": "Outlet locations: Overture Maps Foundation, release 2026-09-23.1, theme places. Only records whose source is Foursquare or AllThePlaces are used."
+    },
+    {
+      "name": "Foursquare OS Places",
+      "licence": "Apache-2.0",
+      "url": "https://opensource.foursquare.com/places-notice-txt/",
+      "text": "Foursquare OS Places Notice. (c) 2026 Foursquare Labs, Inc. All rights reserved. The Foursquare OS Places dataset (the \"Data\") is licensed under the Apache License, Version 2.0 (the \"License\"). You may not use, modify, or distribute the Data except in compliance with the License. As set forth more fully in the License, if you use, modify, or distribute the Data, you must: provide recipients with a copy of the License; if applicable, include prominent notices to the extent you've changed the Data; preserve attribution to Foursquare, including preserving the full content of this NOTICE.txt file. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, the Data distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. Changes made by Field Radar: records filtered to FMCG retail categories in three Polish regions, deduplicated, and given synthetic segments, assignments and visit history."
+    },
+    {
+      "name": "AllThePlaces",
+      "licence": "CC0-1.0",
+      "url": "https://www.alltheplaces.xyz/",
+      "text": "Outlet locations from AllThePlaces via Overture Maps (public domain dedication)."
+    },
+    {
+      "name": "Państwowy Rejestr Granic (PRG)",
+      "licence": "Free use, art. 40a Polish Geodetic and Cartographic Law",
+      "url": "https://www.geoportal.gov.pl/pl/dane/panstwowy-rejestr-granic-prg/",
+      "text": "Źródło: Państwowy Rejestr Granic, GUGiK. Voivodeship and powiat borders, simplified by Field Radar."
+    },
+    {
+      "name": "GeoNames",
+      "licence": "CC BY 4.0",
+      "url": "https://www.geonames.org/",
+      "text": "Town names, positions and populations from GeoNames (cities1000), used for rep home bases and for synthetic outlet points (location_source = town_scatter)."
+    },
+    {
+      "name": "Lista imion i nazwisk w rejestrze PESEL",
+      "licence": "CC0-1.0",
+      "url": "https://dane.gov.pl/pl/dataset/1667",
+      "text": "Common Polish first names (dataset 1667) and surnames (dataset 1681), Ministerstwo Cyfryzacji, dane.gov.pl. Rep and manager names are random combinations, not real people."
+    },
+    {
+      "name": "holidays (Python package)",
+      "licence": "MIT",
+      "url": "https://github.com/vacanza/holidays",
+      "text": "Polish public holidays used by the generator."
+    }
+  ]
+}

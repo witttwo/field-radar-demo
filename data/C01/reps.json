@@ -1,0 +1,82 @@
+[
+  {
+    "rep_id": 301,
+    "rep_code": "C01-SR01",
+    "full_name": "Andrzej Cieślak",
+    "role": "sales_rep",
+    "color_index": 7,
+    "home_lat": 52.54682,
+    "home_lon": 19.70638,
+    "home_town": "Płock"
+  },
+  {
+    "rep_id": 302,
+    "rep_code": "C01-SR02",
+    "full_name": "Beata Sikorska",
+    "role": "sales_rep",
+    "color_index": 1,
+    "home_lat": 52.16772,
+    "home_lon": 22.29006,
+    "home_town": "Siedlce"
+  },
+  {
+    "rep_id": 303,
+    "rep_code": "C01-SR03",
+    "full_name": "Irena Walczak",
+    "role": "sales_rep",
+    "color_index": 6,
+    "home_lat": 51.40253,
+    "home_lon": 21.14714,
+    "home_town": "Radom"
+  },
+  {
+    "rep_id": 304,
+    "rep_code": "C01-SR04",
+    "full_name": "Joanna Kaczmarek",
+    "role": "sales_rep",
+    "color_index": 2,
+    "home_lat": 51.40547,
+    "home_lon": 19.70321,
+    "home_town": "Piotrków Trybunalski"
+  },
+  {
+    "rep_id": 305,
+    "rep_code": "C01-SR05",
+    "full_name": "Krystyna Sokołowska",
+    "role": "sales_rep",
+    "color_index": 0,
+    "home_lat": 52.14269,
+    "home_lon": 20.71697,
+    "home_town": "Brwinów"
+  },
+  {
+    "rep_id": 306,
+    "rep_code": "C01-SR06",
+    "full_name": "Robert Musiał",
+    "role": "sales_rep",
+    "color_index": 3,
+    "home_lat": 52.22977,
+    "home_lon": 21.01178,
+    "home_town": "Warsaw"
+  },
+  {
+    "rep_id": 307,
+    "rep_code": "C01-SR07",
+    "full_name": "Zbigniew Wasilewski",
+    "role": "sales_rep",
+    "color_index": 5,
+    "home_lat": 51.77058,
+    "home_lon": 19.47395,
+    "home_town": "Łódź"
+  },
+  {
+    "rep_id": 308,
+    "rep_code": "C01-MD08",
+    "full_name": "Mariusz Włodarczyk",
+    "role": "merchandiser",
+    "color_index": -1,
+    "home_lat": 52.17072,
+    "home_lon": 20.81214,
+    "home_town": "Pruszków"
+  }
+]

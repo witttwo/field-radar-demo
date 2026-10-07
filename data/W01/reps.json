@@ -1,0 +1,82 @@
+[
+  {
+    "rep_id": 101,
+    "rep_code": "W01-SR01",
+    "full_name": "Andrzej Leszczyński",
+    "role": "sales_rep",
+    "color_index": 2,
+    "home_lat": 54.19438,
+    "home_lon": 16.17222,
+    "home_town": "Koszalin"
+  },
+  {
+    "rep_id": 102,
+    "rep_code": "W01-SR02",
+    "full_name": "Bartosz Musiał",
+    "role": "sales_rep",
+    "color_index": 7,
+    "home_lat": 52.40692,
+    "home_lon": 16.92993,
+    "home_town": "Poznań"
+  },
+  {
+    "rep_id": 103,
+    "rep_code": "W01-SR03",
+    "full_name": "Dorota Czajkowska",
+    "role": "sales_rep",
+    "color_index": 3,
+    "home_lat": 51.93548,
+    "home_lon": 15.50643,
+    "home_town": "Zielona Góra"
+  },
+  {
+    "rep_id": 104,
+    "rep_code": "W01-SR04",
+    "full_name": "Grażyna Kozioł",
+    "role": "sales_rep",
+    "color_index": 6,
+    "home_lat": 53.42894,
+    "home_lon": 14.55302,
+    "home_town": "Szczecin"
+  },
+  {
+    "rep_id": 105,
+    "rep_code": "W01-SR05",
+    "full_name": "Jacek Kucharski",
+    "role": "sales_rep",
+    "color_index": 0,
+    "home_lat": 53.15145,
+    "home_lon": 16.73782,
+    "home_town": "Piła"
+  },
+  {
+    "rep_id": 106,
+    "rep_code": "W01-SR06",
+    "full_name": "Magdalena Stasiak",
+    "role": "sales_rep",
+    "color_index": 1,
+    "home_lat": 51.76109,
+    "home_lon": 18.09102,
+    "home_town": "Kalisz"
+  },
+  {
+    "rep_id": 107,
+    "rep_code": "W01-SR07",
+    "full_name": "Ryszard Olszewski",
+    "role": "sales_rep",
+    "color_index": 4,
+    "home_lat": 52.22338,
+    "home_lon": 18.25121,
+    "home_town": "Konin"
+  },
+  {
+    "rep_id": 108,
+    "rep_code": "W01-MD08",
+    "full_name": "Stanisław Klimek",
+    "role": "merchandiser",
+    "color_index": -1,
+    "home_lat": 51.89636,
+    "home_lon": 17.78549,
+    "home_town": "Pleszew"
+  }
+]

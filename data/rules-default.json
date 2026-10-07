@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "rules": {
+    "overdue_outlet": {
+      "status": "active",
+      "params": {
+        "measure": "days",
+        "threshold": {
+          "A": 10,
+          "B": 21,
+          "C": 42
+        },
+        "medium": {
+          "A": 14,
+          "B": 28,
+          "C": 56
+        },
+        "high": {
+          "A": 21,
+          "B": 56,
+          "C": 112
+        }
+      }
+    },
+    "duplicate_visit": {
+      "status": "active",
+      "params": {
+        "windowDays": 7,
+        "highWhenSameDay": true,
+        "highWhenSameActivity": true,
+        "allowedRolePairs": [
+          [
+            "sales_rep",
+            "merchandiser"
+          ]
+        ]
+      }
+    },
+    "out_of_assignment": {
+      "status": "active",
+      "params": {
+        "highAtVisits": 3,
+        "lowWhenUnassigned": true
+      }
+    },
+    "new_outlet": {
+      "status": "active",
+      "params": {
+        "windowDays": 21,
+        "mediumWhenVisited": true
+      }
+    },
+    "area_overlap": {
+      "status": "active",
+      "params": {
+        "minShare": 0.15,
+        "highAtShare": 0.3
+      }
+    },
+    "visited_no_sales": {
+      "status": "active",
+      "params": {
+        "minVisits": 2,
+        "windowDays": 14
+      }
+    }
+  },
+  "ranges": {
+    "overdue_outlet.plan_multiple": [
+      1.2,
+      5,
+      0.1
+    ],
+    "overdue_outlet.days": [
+      5,
+      120,
+      1
+    ],
+    "duplicate_visit.windowDays": [
+      1,
+      14,
+      1
+    ],
+    "out_of_assignment.highAtVisits": [
+      2,
+      10,
+      1
+    ],
+    "new_outlet.windowDays": [
+      7,
+      60,
+      1
+    ],
+    "area_overlap.minShare": [
+      0.05,
+      0.5,
+      0.01
+    ],
+    "area_overlap.highAtShare": [
+      0.1,
+      0.8,
+      0.01
+    ],
+    "visited_no_sales.minVisits": [
+      1,
+      12,
+      1
+    ],
+    "visited_no_sales.windowDays": [
+      7,
+      180,
+      1
+    ]
+  },
+  "targets": {
+    "dueCoverage": 0.9,
+    "strikeRate": 0.55,
+    "visitsPerWorkingDay": 20,
+    "mustHavePresence": 0.85
+  },
+  "queueWeights": {
+    "severity": {
+      "high": 3,
+      "medium": 2,
+      "low": 1,
+      "info": 0.5
+    },
+    "segment": {
+      "A": 1.5,
+      "B": 1.0,
+      "C": 0.7
+    },
+    "ageDays": 14,
+    "ageCap": 2,
+    "answeredBoost": 1
+  },
+  "fixed": {
+    "alertPeriodStart": "2026-08-01",
+    "clearedLookbackDays": 30
+  }
+}
